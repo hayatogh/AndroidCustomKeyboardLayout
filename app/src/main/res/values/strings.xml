@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Custom Keyboard</string>
+    <string name="keyboard_layouts_label">Custom Keyboard</string>
+    <string name="keyboard_layouts_name">Custom Layout</string>
+</resources>

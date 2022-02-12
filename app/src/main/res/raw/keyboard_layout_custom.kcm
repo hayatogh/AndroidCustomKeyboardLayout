@@ -1,0 +1,96 @@
+type OVERLAY
+
+# Caps <-> Ctrl
+map key  58 CTRL_LEFT
+map key  29 CAPS_LOCK
+
+# Henkan -> Alt
+map key  92 ALT_RIGHT
+
+# Ro -> zenkaku
+map key  89 ZENKAKU_HANKAKU
+
+key H {
+    label:                              'H'
+    base:                               'h'
+    shift, capslock:                    'H'
+    shift+capslock:                     'h'
+    ctrl:                               replace DEL
+    alt:                                replace DPAD_LEFT
+}
+
+key J {
+    label:                              'J'
+    base:                               'j'
+    shift, capslock:                    'J'
+    shift+capslock:                     'j'
+    alt:                                replace DPAD_DOWN
+}
+
+key K {
+    label:                              'K'
+    base:                               'k'
+    shift, capslock:                    'K'
+    shift+capslock:                     'k'
+    alt:                                replace DPAD_UP
+}
+
+key L {
+    label:                              'L'
+    base:                               'l'
+    shift, capslock:                    'L'
+    shift+capslock:                     'l'
+    alt:                                replace DPAD_RIGHT
+}
+
+key N {
+    label:                              'N'
+    base:                               'n'
+    shift, capslock:                    'N'
+    shift+capslock:                     'n'
+    alt:                                replace MOVE_HOME
+}
+
+key M {
+    label:                              'M'
+    base:                               'm'
+    shift, capslock:                    'M'
+    shift+capslock:                     'm'
+    alt:                                replace PAGE_DOWN
+}
+
+key COMMA {
+    label:                              ','
+    base:                               ','
+    shift:                              '<'
+    alt:                                replace PAGE_UP
+}
+
+key PERIOD {
+    label:                              '.'
+    base:                               '.'
+    shift:                              '>'
+    alt:                                replace MOVE_END
+}
+
+key SEMICOLON {
+    label:                              ';'
+    base:                               ';'
+    shift:                              ':'
+    alt:                                replace MUHENKAN
+}
+
+key APOSTROPHE {
+    label:                              '\''
+    base:                               '\''
+    shift:                              '"'
+    alt:                                replace HENKAN
+}
+
+key W {
+    label:                              'W'
+    base:                               'w'
+    shift, capslock:                    'W'
+    shift+capslock:                     'w'
+    ctrl:                               fallback DEL
+}
